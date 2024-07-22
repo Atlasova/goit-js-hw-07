@@ -1,6 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  color: #424242;
+  color: #2e2f42;
   line-height: 1.5;
   background: #f1f1f1ff;
   display: flex;
@@ -8,7 +8,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 50px;
-  width: 400px;
+  width: 345px;
 }
 
 a {
@@ -45,8 +45,8 @@ a {
 }
 
 button {
-  width: 150px;
-  height: 42px;
+  width: 148px;
+  height: 40px;
   color: #fff;
   font-family: Montserrat;
   font-size: 16px;

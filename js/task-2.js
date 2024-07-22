@@ -29,7 +29,7 @@ const imageList = document.querySelector('.gallery');
 const addImages = images
   .map(
     img =>
-      `<li class="gallery-item"><img src="${img.url}" alt="${img.alt}" width="360" /></li>`
+      `<li class="gallery-item"><img src="${img.url}" alt="${img.alt}" style="width:360px; height:300px;" /></li>`
   )
   .join('');
 

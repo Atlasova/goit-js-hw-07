@@ -19,7 +19,7 @@ a {
   margin-bottom: 50px;
 }
 #controls {
-  background-color: #e5e5f4;
+  background-color: #f6f6fe;
   padding: 32px;
   max-width: 486px;
   border-radius: 8px;
@@ -30,16 +30,15 @@ a {
 }
 
 input {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
   border: 1px solid #808080;
   border-radius: 8px;
   width: 150px;
   height: 40px;
   background: transparent;
-
-  font-family: 'Montserrat', sans-serif;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  text-align: center;
   color: #2e2f42;
   margin-right: 16px;
 }
@@ -56,13 +55,11 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-
   border: none;
   border-radius: 8px;
   padding: 8px 16px;
   width: 120px;
   height: 40px;
-
   background: #4e75ff;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -93,5 +90,5 @@ button[data-destroy]:hover {
   min-height: 150px;
   padding: 32px;
   border-radius: 8px;
-  background-color: #e5e5f4;
+  background-color: #f6f6fe;
 }
