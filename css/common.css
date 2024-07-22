@@ -8,7 +8,6 @@ body {
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
-  display: flex;
   flex-direction: column;
   background-color: #fafafa;
   line-height: 1.5;
@@ -33,20 +32,9 @@ li {
   border-radius: 50px;
   border: 1px solid #28053d;
   padding: 15px 45px;
-  transition: background-color 0.3s ease-in, border 0.2s ease-in-out;
 }
 a {
   text-decoration: none;
   padding: 15px 40px;
   color: #291a33;
-  transition: color 0.3s ease-in;
-}
-
-li:hover,
-li:focus {
-  background-color: #fefefe;
-  border: 1px solid #1e1823;
-  transition: background-color 0.3s ease-in, border 0.2s ease-in-out,
-    color 0.4s ease-in;
-  color: rgb(207, 194, 226);
 }
