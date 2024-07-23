@@ -26,6 +26,7 @@ const images = [
 ];
 
 const imageList = document.querySelector('.gallery');
+
 const addImages = images
   .map(
     img =>
@@ -33,5 +34,7 @@ const addImages = images
   )
   .join('');
 
-console.log(addImages);
-imageList.innerHTML = addImages;
+imageList.insertAdjacentHTML('beforeend', addImages);
+
+imageList.style.display = 'flex';
+imageList.style.gap = '48px 24px';
